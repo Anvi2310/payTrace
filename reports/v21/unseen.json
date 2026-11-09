@@ -1,0 +1,369 @@
+{
+ "ring_rule_fpr_test": 0.0010921392610745585,
+ "patterns": {
+  "ATO": {
+   "n_test": 228,
+   "detectors": {
+    "lightgbm": {
+     "recall": 0.34210526315789475,
+     "fpr": 0.0035561119842305745,
+     "detection_delay_hours": 5.987896969444445,
+     "loss_inr": 1341108.81,
+     "value_caught_pct": 0.29574149243850895,
+     "pr_auc_on_pattern": 0.19080341877343288,
+     "recall_at_1pct_fpr": 0.39796320421515835
+    },
+    "isolation_forest": {
+     "recall": 0.5482456140350878,
+     "fpr": 0.012586239045310461,
+     "detection_delay_hours": 10.077574842777778,
+     "loss_inr": 674133.5599999998,
+     "value_caught_pct": 0.6894331027055774,
+     "pr_auc_on_pattern": 0.20837615880139757,
+     "recall_at_1pct_fpr": 0.5263157894736842
+    },
+    "autoencoder": {
+     "recall": 0.24561403508771928,
+     "fpr": 0.010095628779201407,
+     "detection_delay_hours": 10.077574842777778,
+     "loss_inr": 1512330.7199999997,
+     "value_caught_pct": 0.23030873405859612,
+     "pr_auc_on_pattern": 0.06281129455929077,
+     "recall_at_1pct_fpr": 0.2412280701754386
+    },
+    "hybrid_2_0": {
+     "recall": 0.3815789473684211,
+     "fpr": 0.006725979595642098,
+     "detection_delay_hours": 5.987896969444445,
+     "loss_inr": 1261930.55,
+     "value_caught_pct": 0.35091710838624385
+    },
+    "graph_assisted_2_1": {
+     "recall": 0.3815789473684211,
+     "fpr": 0.007724887456381024,
+     "detection_delay_hours": 5.987896969444445,
+     "loss_inr": 1269430.55,
+     "value_caught_pct": 0.35091710838624385
+    },
+    "fused_risk": {
+     "pr_auc_on_pattern": 0.14565353158464875,
+     "recall_at_1pct_fpr": 0.5175438596491229
+    }
+   }
+  },
+  "CARD_TESTING": {
+   "n_test": 248,
+   "detectors": {
+    "lightgbm": {
+     "recall": 0.7620967741935484,
+     "fpr": 0.007298686769132415,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 83174.27,
+     "value_caught_pct": 0.8135206311294553,
+     "pr_auc_on_pattern": 0.48905494366892266,
+     "recall_at_1pct_fpr": 0.7907183257918552
+    },
+    "isolation_forest": {
+     "recall": 0.7298387096774194,
+     "fpr": 0.012586239045310461,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 101811.69,
+     "value_caught_pct": 0.9519466285272864,
+     "pr_auc_on_pattern": 0.4250959950595117,
+     "recall_at_1pct_fpr": 0.6774193548387096
+    },
+    "autoencoder": {
+     "recall": 0.5080645161290323,
+     "fpr": 0.010095628779201407,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 90552.7,
+     "value_caught_pct": 0.9030433493042643,
+     "pr_auc_on_pattern": 0.15418592496489775,
+     "recall_at_1pct_fpr": 0.5040322580645161
+    },
+    "hybrid_2_0": {
+     "recall": 0.8508064516129032,
+     "fpr": 0.010268772808396153,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 103498.25,
+     "value_caught_pct": 0.8265072899043091
+    },
+    "graph_assisted_2_1": {
+     "recall": 0.8508064516129032,
+     "fpr": 0.011241043126182041,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 110798.25,
+     "value_caught_pct": 0.8265072899043091
+    },
+    "fused_risk": {
+     "pr_auc_on_pattern": 0.5489713853976089,
+     "recall_at_1pct_fpr": 0.8508064516129032
+    }
+   }
+  },
+  "DEVICE_RING": {
+   "n_test": 47,
+   "detectors": {
+    "lightgbm": {
+     "recall": 0.6595744680851063,
+     "fpr": 0.004448469673157348,
+     "detection_delay_hours": 7.0987022133333335,
+     "loss_inr": 57406.92,
+     "value_caught_pct": 0.7227241201482769,
+     "pr_auc_on_pattern": 0.09789478199323755,
+     "recall_at_1pct_fpr": 0.8576027196530098
+    },
+    "isolation_forest": {
+     "recall": 0.0851063829787234,
+     "fpr": 0.012586239045310461,
+     "detection_delay_hours": 8.017926713055555,
+     "loss_inr": 171738.03,
+     "value_caught_pct": 0.10791377126829277,
+     "pr_auc_on_pattern": 0.003355640769898246,
+     "recall_at_1pct_fpr": 0.0425531914893617
+    },
+    "autoencoder": {
+     "recall": 0.3404255319148936,
+     "fpr": 0.010095628779201407,
+     "detection_delay_hours": 7.0987022133333335,
+     "loss_inr": 134071.82,
+     "value_caught_pct": 0.32697030018589457,
+     "pr_auc_on_pattern": 0.011656424623381647,
+     "recall_at_1pct_fpr": 0.3404255319148936
+    },
+    "hybrid_2_0": {
+     "recall": 0.9574468085106383,
+     "fpr": 0.01112117418289337,
+     "detection_delay_hours": 3.227469458333333,
+     "loss_inr": 86157.54,
+     "value_caught_pct": 0.969305860904225
+    },
+    "graph_assisted_2_1": {
+     "recall": 0.9574468085106383,
+     "fpr": 0.012120082043632295,
+     "detection_delay_hours": 3.227469458333333,
+     "loss_inr": 93657.54,
+     "value_caught_pct": 0.969305860904225
+    },
+    "fused_risk": {
+     "pr_auc_on_pattern": 0.16989601064339382,
+     "recall_at_1pct_fpr": 0.9361702127659575
+    }
+   }
+  },
+  "MERCHANT_COLLUSION": {
+   "n_test": 94,
+   "detectors": {
+    "lightgbm": {
+     "recall": 0.0,
+     "fpr": 0.010348685437255268,
+     "detection_delay_hours": null,
+     "loss_inr": 569200.0,
+     "value_caught_pct": 0.0,
+     "pr_auc_on_pattern": 0.001243740820305229,
+     "recall_at_1pct_fpr": 0.0
+    },
+    "isolation_forest": {
+     "recall": 0.40425531914893614,
+     "fpr": 0.012586239045310461,
+     "detection_delay_hours": 0.37606347444444443,
+     "loss_inr": 341500.0,
+     "value_caught_pct": 0.49745676500508645,
+     "pr_auc_on_pattern": 0.034039354735079644,
+     "recall_at_1pct_fpr": 0.3829787234042553
+    },
+    "autoencoder": {
+     "recall": 0.425531914893617,
+     "fpr": 0.010095628779201407,
+     "detection_delay_hours": 7.925004285833333,
+     "loss_inr": 332800.0,
+     "value_caught_pct": 0.47711088504577825,
+     "pr_auc_on_pattern": 0.03997775699098332,
+     "recall_at_1pct_fpr": 0.425531914893617
+    },
+    "hybrid_2_0": {
+     "recall": 0.6063829787234043,
+     "fpr": 0.012213313443967928,
+     "detection_delay_hours": 0.37606347444444443,
+     "loss_inr": 265700.0,
+     "value_caught_pct": 0.6459816887080366
+    },
+    "graph_assisted_2_1": {
+     "recall": 0.6063829787234043,
+     "fpr": 0.013172264990277297,
+     "detection_delay_hours": 0.37606347444444443,
+     "loss_inr": 272900.0,
+     "value_caught_pct": 0.6459816887080366
+    },
+    "fused_risk": {
+     "pr_auc_on_pattern": 0.0030628826746026123,
+     "recall_at_1pct_fpr": 0.0
+    }
+   }
+  },
+  "MULE_P2P": {
+   "n_test": 158,
+   "detectors": {
+    "lightgbm": {
+     "recall": 0.930379746835443,
+     "fpr": 0.01126768066913508,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 117948.4,
+     "value_caught_pct": 0.979542320301978,
+     "pr_auc_on_pattern": 0.37796968724123975,
+     "recall_at_1pct_fpr": 0.9189777582558
+    },
+    "isolation_forest": {
+     "recall": 0.05063291139240506,
+     "fpr": 0.012586239045310461,
+     "detection_delay_hours": 42.347172370833334,
+     "loss_inr": 1669133.8199999998,
+     "value_caught_pct": 0.03403598579743175,
+     "pr_auc_on_pattern": 0.009665665021220642,
+     "recall_at_1pct_fpr": 0.0379746835443038
+    },
+    "autoencoder": {
+     "recall": 0.02531645569620253,
+     "fpr": 0.010095628779201407,
+     "detection_delay_hours": 7.854262811944444,
+     "loss_inr": 1651760.1300000001,
+     "value_caught_pct": 0.03322235680292875,
+     "pr_auc_on_pattern": 0.0033647819153101634,
+     "recall_at_1pct_fpr": 0.02531645569620253
+    },
+    "hybrid_2_0": {
+     "recall": 0.930379746835443,
+     "fpr": 0.016315495058735783,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 155848.4,
+     "value_caught_pct": 0.979542320301978
+    },
+    "graph_assisted_2_1": {
+     "recall": 0.930379746835443,
+     "fpr": 0.017247809062092112,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 162848.4,
+     "value_caught_pct": 0.979542320301978
+    },
+    "fused_risk": {
+     "pr_auc_on_pattern": 0.22438062623043775,
+     "recall_at_1pct_fpr": 0.8481012658227848
+    }
+   }
+  },
+  "QR_SWAP": {
+   "n_test": 76,
+   "detectors": {
+    "lightgbm": {
+     "recall": 0.0,
+     "fpr": 0.009709384406382355,
+     "detection_delay_hours": null,
+     "loss_inr": 245871.16000000003,
+     "value_caught_pct": 0.0,
+     "pr_auc_on_pattern": 0.001002151850226692,
+     "recall_at_1pct_fpr": 0.0
+    },
+    "isolation_forest": {
+     "recall": 0.0,
+     "fpr": 0.012586239045310461,
+     "detection_delay_hours": null,
+     "loss_inr": 267471.16000000003,
+     "value_caught_pct": 0.0,
+     "pr_auc_on_pattern": 0.0009781667914666352,
+     "recall_at_1pct_fpr": 0.0
+    },
+    "autoencoder": {
+     "recall": 0.05263157894736842,
+     "fpr": 0.010095628779201407,
+     "detection_delay_hours": 88.96114215833333,
+     "loss_inr": 239079.35,
+     "value_caught_pct": 0.056031363841232244,
+     "pr_auc_on_pattern": 0.012958844536663334,
+     "recall_at_1pct_fpr": 0.05263157894736842
+    },
+    "hybrid_2_0": {
+     "recall": 0.19736842105263158,
+     "fpr": 0.014970299139607363,
+     "detection_delay_hours": 87.59992731777778,
+     "loss_inr": 250455.36000000002,
+     "value_caught_pct": 0.20185908448552928
+    },
+    "graph_assisted_2_1": {
+     "recall": 0.6973684210526315,
+     "fpr": 0.01595588822886977,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 161312.63,
+     "value_caught_pct": 0.7600025923396708
+    },
+    "fused_risk": {
+     "pr_auc_on_pattern": 0.0005511218035124919,
+     "recall_at_1pct_fpr": 0.0
+    }
+   }
+  },
+  "RAPID_MOVEMENT": {
+   "n_test": 161,
+   "detectors": {
+    "lightgbm": {
+     "recall": 0.7763975155279503,
+     "fpr": 0.022095841879545032,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 588078.6,
+     "value_caught_pct": 0.7764316702847527,
+     "pr_auc_on_pattern": 0.24183047481921244,
+     "recall_at_1pct_fpr": 0.6743246376811595
+    },
+    "isolation_forest": {
+     "recall": 0.7453416149068323,
+     "fpr": 0.012586239045310461,
+     "detection_delay_hours": 0.22421810472222223,
+     "loss_inr": 578508.32,
+     "value_caught_pct": 0.7436892071964734,
+     "pr_auc_on_pattern": 0.534380555716751,
+     "recall_at_1pct_fpr": 0.7453416149068323
+    },
+    "autoencoder": {
+     "recall": 0.7329192546583851,
+     "fpr": 0.010095628779201407,
+     "detection_delay_hours": 0.22421810472222223,
+     "loss_inr": 630489.68,
+     "value_caught_pct": 0.7062592815744686,
+     "pr_auc_on_pattern": 0.26483315910955,
+     "recall_at_1pct_fpr": 0.7329192546583851
+    },
+    "hybrid_2_0": {
+     "recall": 0.9006211180124224,
+     "fpr": 0.024013744972163766,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 282526.41000000003,
+     "value_caught_pct": 0.9458651202678533
+    },
+    "graph_assisted_2_1": {
+     "recall": 0.9254658385093167,
+     "fpr": 0.024999334061426175,
+     "detection_delay_hours": 0.0,
+     "loss_inr": 262902.45,
+     "value_caught_pct": 0.9601758920584927
+    },
+    "fused_risk": {
+     "pr_auc_on_pattern": 0.2172411793496882,
+     "recall_at_1pct_fpr": 0.6459627329192547
+    }
+   }
+  }
+ },
+ "mean_recall": {
+  "lightgbm": 0.49579339539999184,
+  "isolation_forest": 0.3662029360199149,
+  "autoencoder": 0.3329290410467455,
+  "hybrid_2_0": 0.689226353159409,
+  "graph_assisted_2_1": 0.7642041703732512
+ },
+ "mean_fpr": {
+  "lightgbm": 0.00981783725983401,
+  "isolation_forest": 0.012586239045310461,
+  "autoencoder": 0.010095628779201407,
+  "hybrid_2_0": 0.013661254171629495,
+  "graph_assisted_2_1": 0.014637329852694388
+ }
+}

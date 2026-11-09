@@ -1,0 +1,23 @@
+# docker compose up            -> web app + API on http://localhost:8000, analytics dashboard on http://localhost:8501
+# docker compose --profile kafka up   -> also a Redpanda broker for `python -m src.stream_v2 --bus kafka`
+services:
+  dashboard:
+    build: .
+    ports: ["127.0.0.1:8501:8501"]
+    command: ["sh", "-c", "./run_v2.sh"]
+    env_file: [.env]
+    environment: [STREAMLIT_SERVER_ADDRESS=0.0.0.0]
+    volumes: ["./data:/app/data", "./models:/app/models", "./reports:/app/reports"]
+  app:
+    build: .
+    ports: ["127.0.0.1:8000:8000"]
+    command: ["sh", "-c", "./run_app.sh"]
+    env_file: [.env]
+    environment: [HOST=0.0.0.0, PAYTRACE_DB=/app/state/paytrace.db]
+    volumes: ["./data:/app/data", "./models:/app/models", "./reports:/app/reports", "./state:/app/state"]
+  redpanda:
+    profiles: ["kafka"]
+    image: redpandadata/redpanda:latest
+    command: [redpanda, start, --smp=1, --overprovisioned, --kafka-addr=PLAINTEXT://0.0.0.0:9092,
+              --advertise-kafka-addr=PLAINTEXT://redpanda:9092]
+    ports: ["127.0.0.1:9092:9092"]

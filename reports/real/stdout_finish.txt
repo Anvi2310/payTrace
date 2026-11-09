@@ -1,0 +1,13 @@
+11:27:02 rescored baseline_synthetic on sparkov {'pr_auc': 0.1145, 'roc_auc': 0.8764, 'review_recall': 1.0, 'review_precision': 0.0038, 'review_fpr': 0.9995, 'block_recall': 0.001, 'block_precision': 1.0, 'fraud_value_caught_share': 0.4406, 'train_minutes': None}
+11:27:16 rescored baseline_synthetic on ieee {'pr_auc': 0.0672, 'roc_auc': 0.6523, 'review_recall': 0.9995, 'review_precision': 0.0341, 'review_fpr': 0.99986, 'block_recall': 0.4116, 'block_precision': 0.0862, 'fraud_value_caught_share': 0.7885, 'train_minutes': None}
+11:28:05 rescored single_sparkov on sparkov {'pr_auc': 0.9414, 'roc_auc': 0.9981, 'review_recall': 0.988, 'review_precision': 0.1832, 'review_fpr': 0.01696, 'block_recall': 0.8381, 'block_precision': 0.9222, 'fraud_value_caught_share': 0.9884, 'train_minutes': 1.5}
+11:28:16 rescored single_sparkov on ieee {'pr_auc': 0.0382, 'roc_auc': 0.5535, 'review_recall': 1.0, 'review_precision': 0.0341, 'review_fpr': 0.99966, 'block_recall': 0.2971, 'block_precision': 0.0306, 'fraud_value_caught_share': 0.7886, 'train_minutes': None}
+11:28:44 rescored single_ieee on sparkov {'pr_auc': 0.0181, 'roc_auc': 0.6852, 'review_recall': 0.3287, 'review_precision': 0.0146, 'review_fpr': 0.08533, 'block_recall': 0.0, 'block_precision': 0.0, 'fraud_value_caught_share': 0.4367, 'train_minutes': None}
+11:28:55 rescored single_ieee on ieee {'pr_auc': 0.1205, 'roc_auc': 0.751, 'review_recall': 0.575, 'review_precision': 0.0744, 'review_fpr': 0.2525, 'block_recall': 0.0002, 'block_precision': 1.0, 'fraud_value_caught_share': 0.5487, 'train_minutes': 0.3}
+11:29:27 rescored pooled_sp_ie on sparkov {'pr_auc': 0.6649, 'roc_auc': 0.9778, 'review_recall': 0.9019, 'review_precision': 0.0901, 'review_fpr': 0.03509, 'block_recall': 0.3665, 'block_precision': 0.9316, 'fraud_value_caught_share': 0.9728}
+11:29:36 rescored pooled_sp_ie on ieee {'pr_auc': 0.1294, 'roc_auc': 0.782, 'review_recall': 0.9171, 'review_precision': 0.0483, 'review_fpr': 0.63848, 'block_recall': 0.0007, 'block_precision': 0.12, 'fraud_value_caught_share': 0.824}
+src/experiments_real.py:84: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  raw["txn_id"] = "IE" + raw.TransactionID.astype(str)
+11:32:31 ieee_native raw_columns {'pr_auc': 0.4609, 'roc_auc': 0.8615, 'n_features': 431, 'best_iteration': 1874}
+11:32:53 ieee_native raw_plus_behaviour {'pr_auc': 0.3937, 'roc_auc': 0.8524, 'n_features': 470, 'best_iteration': 9}
+11:32:53 done

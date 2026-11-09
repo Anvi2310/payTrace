@@ -1,0 +1,25 @@
+{
+ "payments": 600,
+ "dataset": "sparkov",
+ "cpu_count": 2,
+ "decision_path_ms": {
+  "p50": 7.49551299986706,
+  "p95": 10.928201600154352,
+  "p99": 14.161109369747436,
+  "mean": 8.059031898320276
+ },
+ "decision_throughput_per_sec": 124.06671580696036,
+ "scorer_ms": {
+  "p50": 0.49598999999034277,
+  "p95": 2.1053139497553275,
+  "p99": 2.9457510198199084,
+  "mean": 0.8529843966607586
+ },
+ "ring_monitor_ms": {
+  "p50": 0.03633999995145132,
+  "p95": 0.06228660022316031,
+  "p99": 0.07958370983942585,
+  "mean": 0.03931825000108802
+ },
+ "note": "single thread, includes SQLite writes; measured in the build container (2 vCPU), not a production server"
+}

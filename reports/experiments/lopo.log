@@ -1,0 +1,9 @@
+== lopo ==
+  ATO                  sup 0.34 fused 0.28 payee 0.00 device 0.02 flow 0.02 ae 0.06 hybrid 0.38 | eval recall champ 0.38 -> 0.40 / 0.47 / 0.60
+  CARD_TESTING         sup 0.76 fused 0.81 payee 0.00 device 0.06 flow 0.12 ae 0.06 hybrid 0.85 | eval recall champ 0.85 -> 0.91 / 0.96 / 0.96
+  DEVICE_RING          sup 0.66 fused 0.91 payee 0.00 device 0.47 flow 0.00 ae 0.00 hybrid 0.96 | eval recall champ 0.96 -> 0.93 / 0.89 / 0.96
+  MERCHANT_COLLUSION   sup 0.00 fused 0.00 payee 0.59 device 0.00 flow 0.00 ae 0.02 hybrid 0.61 | eval recall champ 0.53 -> 0.58 / 0.57 / 0.87
+  MULE_P2P             sup 0.93 fused 0.92 payee 0.00 device 0.00 flow 0.00 ae 0.00 hybrid 0.93 | eval recall champ 0.92 -> 0.96 / 0.92 / 0.99
+  QR_SWAP              sup 0.00 fused 0.00 payee 0.18 device 0.00 flow 0.00 ae 0.03 hybrid 0.20 | eval recall champ 0.16 -> 0.16 / 0.16 / 0.23
+  RAPID_MOVEMENT       sup 0.78 fused 0.61 payee 0.00 device 0.00 flow 0.35 ae 0.23 hybrid 0.90 | eval recall champ 0.91 -> 0.90 / 1.00 / 0.99
+wrote reports/experiments/results.json

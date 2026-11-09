@@ -1,0 +1,10 @@
+[theme]
+base = "dark"
+backgroundColor = "#1a1a19"
+secondaryBackgroundColor = "#242423"
+textColor = "#f0efec"
+primaryColor = "#3987e5"
+
+[server]
+headless = true
+address = "localhost"

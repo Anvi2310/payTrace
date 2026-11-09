@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="payTrace: real-time payment fraud detection">
+  <rect width="1200" height="260" fill="#082F49"/>
+  <g transform="translate(70,58)" fill="none" stroke="#BAE6FD" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="10,120 50,40 95,92 140,18"/>
+  </g>
+  <g transform="translate(70,58)">
+    <circle cx="10" cy="120" r="16" fill="#BAE6FD"/><circle cx="50" cy="40" r="16" fill="#BAE6FD"/>
+    <circle cx="95" cy="92" r="16" fill="#BAE6FD"/><circle cx="140" cy="18" r="20" fill="#22C55E"/>
+  </g>
+  <text x="270" y="140" font-family="Helvetica, Arial, sans-serif" font-size="76" font-weight="700" fill="#F0FDFF">payTrace</text>
+  <text x="272" y="190" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#BAE6FD">Real-time payment fraud detection that explains every decision</text>
+</svg>

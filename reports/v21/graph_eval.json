@@ -1,0 +1,170 @@
+{
+ "dataset": "synthetic UPI-style v2 (test period = last 25%)",
+ "transaction_level": {
+  "ms_per_txn": 0.020124595874387762,
+  "rules": {
+   "fan_in": {
+    "fpr": 0.0,
+    "recall": {
+     "ATO": 0.0,
+     "CARD_TESTING": 0.0,
+     "DEVICE_RING": 0.1276595744680851,
+     "MERCHANT_COLLUSION": 0.0,
+     "MULE_P2P": 0.0,
+     "QR_SWAP": 0.6842105263157895,
+     "RAPID_MOVEMENT": 0.0
+    },
+    "recall_all_fraud": 0.05731225296442688
+   },
+   "shared_device": {
+    "fpr": 0.0,
+    "recall": {
+     "ATO": 0.013157894736842105,
+     "CARD_TESTING": 0.0,
+     "DEVICE_RING": 0.8085106382978723,
+     "MERCHANT_COLLUSION": 0.0,
+     "MULE_P2P": 0.0,
+     "QR_SWAP": 0.0,
+     "RAPID_MOVEMENT": 0.0
+    },
+    "recall_all_fraud": 0.040513833992094864
+   },
+   "device_new_accounts": {
+    "fpr": 0.0,
+    "recall": {
+     "ATO": 0.0,
+     "CARD_TESTING": 0.0,
+     "DEVICE_RING": 0.8936170212765957,
+     "MERCHANT_COLLUSION": 0.0,
+     "MULE_P2P": 0.0,
+     "QR_SWAP": 0.0,
+     "RAPID_MOVEMENT": 0.0
+    },
+    "recall_all_fraud": 0.041501976284584984
+   },
+   "pass_through": {
+    "fpr": 0.0009722703177858875,
+    "recall": {
+     "ATO": 0.0043859649122807015,
+     "CARD_TESTING": 0.0,
+     "DEVICE_RING": 0.0,
+     "MERCHANT_COLLUSION": 0.0,
+     "MULE_P2P": 0.0,
+     "QR_SWAP": 0.0,
+     "RAPID_MOVEMENT": 0.4472049689440994
+    },
+    "recall_all_fraud": 0.07213438735177866
+   },
+   "mule_chain": {
+    "fpr": 0.0,
+    "recall": {
+     "ATO": 0.0,
+     "CARD_TESTING": 0.0,
+     "DEVICE_RING": 0.0,
+     "MERCHANT_COLLUSION": 0.0,
+     "MULE_P2P": 0.0,
+     "QR_SWAP": 0.0,
+     "RAPID_MOVEMENT": 0.16770186335403728
+    },
+    "recall_all_fraud": 0.0266798418972332
+   },
+   "cycle": {
+    "fpr": 0.00011986894328867105,
+    "recall": {
+     "ATO": 0.0,
+     "CARD_TESTING": 0.0,
+     "DEVICE_RING": 0.0,
+     "MERCHANT_COLLUSION": 0.0,
+     "MULE_P2P": 0.0,
+     "QR_SWAP": 0.0,
+     "RAPID_MOVEMENT": 0.006211180124223602
+    },
+    "recall_all_fraud": 0.0009881422924901185
+   },
+   "any": {
+    "fpr": 0.0010921392610745585,
+    "recall": {
+     "ATO": 0.017543859649122806,
+     "CARD_TESTING": 0.0,
+     "DEVICE_RING": 0.9148936170212766,
+     "MERCHANT_COLLUSION": 0.0,
+     "MULE_P2P": 0.0,
+     "QR_SWAP": 0.6842105263157895,
+     "RAPID_MOVEMENT": 0.4472049689440994
+    },
+    "recall_all_fraud": 0.16897233201581027
+   }
+  }
+ },
+ "entity_level": {
+  "windows": [
+   {
+    "from": "2026-09-15",
+    "payments": 35215,
+    "rings": 56,
+    "ring_entities": 702,
+    "precision": 0.7037037037037037,
+    "fraud_entity_recall": 0.9043478260869565,
+    "analyse_seconds": 13.9,
+    "cycles": 2,
+    "chains": 30,
+    "top_ring": {
+     "size": 15,
+     "score": 10.84,
+     "evidence": [
+      "D:D_RING18_1: device shared by 7 accounts",
+      "D:D_RING18_0: device shared by 6 accounts",
+      "38 payments in this group were flagged by the model"
+     ]
+    }
+   },
+   {
+    "from": "2026-09-22",
+    "payments": 35911,
+    "rings": 54,
+    "ring_entities": 759,
+    "precision": 0.6693017127799736,
+    "fraud_entity_recall": 0.9344262295081968,
+    "analyse_seconds": 14.7,
+    "cycles": 3,
+    "chains": 34,
+    "top_ring": {
+     "size": 20,
+     "score": 14.53,
+     "evidence": [
+      "D:D_RING12_0: device shared by 12 accounts",
+      "U:RINGX12_1: collected from 5 accounts within 22 h",
+      "D:D_RING12_1: device shared by 5 accounts",
+      "U:RINGX12_0: collected from 7 accounts within 28 h",
+      "57 payments in this group were flagged by the model"
+     ]
+    }
+   },
+   {
+    "from": "2026-09-29",
+    "payments": 4968,
+    "rings": 6,
+    "ring_entities": 38,
+    "precision": 0.39473684210526316,
+    "fraud_entity_recall": 0.36363636363636365,
+    "analyse_seconds": 2.9,
+    "cycles": 0,
+    "chains": 2,
+    "top_ring": {
+     "size": 11,
+     "score": 4.52,
+     "evidence": [
+      "U:U03886: in a rapid mule chain",
+      "U:U03005: in a rapid mule chain",
+      "U:U02911: in a rapid mule chain",
+      "9 payments in this group were flagged by the model"
+     ]
+    }
+   }
+  ],
+  "precision": 0.6731780616078137,
+  "fraud_entity_recall": 0.9657142857142857,
+  "ring_entities": 1331,
+  "fraud_entities": 175
+ }
+}

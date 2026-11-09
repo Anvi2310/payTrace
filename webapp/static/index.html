@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>payTrace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=Barlow+Condensed:wght@700&display=swap">
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%23082F49%22/%3E%3Cpath d=%22M6 24 L13 11 L20 19 L26 9%22 stroke=%22%23BAE6FD%22 stroke-width=%222.6%22 fill=%22none%22 stroke-linecap=%22round%22/%3E%3Ccircle cx=%2226%22 cy=%229%22 r=%224%22 fill=%22%2322C55E%22/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="topbar" id="topbar" hidden>
+    <div class="brand"><svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><path d="M5 24 L13 10 L21 19 L27 8" stroke="#BAE6FD" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="5" cy="24" r="3" fill="#BAE6FD"/><circle cx="13" cy="10" r="3" fill="#BAE6FD"/><circle cx="21" cy="19" r="3" fill="#BAE6FD"/><circle cx="27" cy="8" r="4" fill="#22C55E"/></svg><span>payTrace</span></div>
+    <nav class="tabs" id="tabs"></nav>
+    <div class="topmeta">
+      <span class="chip" id="llmChip" title="Explanations"></span>
+      <span class="clock" id="clock" title="Bank clock (dataset timeline)"></span>
+      <button class="who" id="who" type="button"></button>
+      <button class="btn ghost sm" id="logoutBtn">Sign out</button>
+    </div>
+  </header>
+  <main id="app"><div class="boot">Loading…</div></main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

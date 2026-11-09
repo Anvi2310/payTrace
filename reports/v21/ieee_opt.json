@@ -1,0 +1,1365 @@
+{
+ "diagnose": {
+  "behaviour_stability": {
+   "b_amount": {
+    "psi_train_vs_es": 0.011332730936266825,
+    "psi_train_vs_test": 0.009371679426629594,
+    "missing_or_constant": false
+   },
+   "b_log_amount": {
+    "psi_train_vs_es": 0.011332730936266825,
+    "psi_train_vs_test": 0.009371679426629594,
+    "missing_or_constant": false
+   },
+   "b_hour": {
+    "psi_train_vs_es": 0.0015313307314093639,
+    "psi_train_vs_test": 0.016225058717257927,
+    "missing_or_constant": false
+   },
+   "b_is_night": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": false
+   },
+   "b_dow": {
+    "psi_train_vs_es": 0.05005001637083161,
+    "psi_train_vs_test": 0.0120513539872524,
+    "missing_or_constant": false
+   },
+   "b_channel_code": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": true
+   },
+   "b_category_code": {
+    "psi_train_vs_es": 0.14967694105849194,
+    "psi_train_vs_test": 0.0802974390787016,
+    "missing_or_constant": false
+   },
+   "b_is_p2p": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": true
+   },
+   "b_u_txn_count_total": {
+    "psi_train_vs_es": 0.06251522424901106,
+    "psi_train_vs_test": 0.15334825265506974,
+    "missing_or_constant": false
+   },
+   "b_u_secs_since_last": {
+    "psi_train_vs_es": 0.01251285013559705,
+    "psi_train_vs_test": 0.02321884195525112,
+    "missing_or_constant": false
+   },
+   "b_u_cnt_10m": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": false
+   },
+   "b_u_cnt_1h": {
+    "psi_train_vs_es": 0.0014163298673727268,
+    "psi_train_vs_test": 0.0006276330220044155,
+    "missing_or_constant": false
+   },
+   "b_u_cnt_24h": {
+    "psi_train_vs_es": 0.0030717962762542815,
+    "psi_train_vs_test": 0.006434995485241776,
+    "missing_or_constant": false
+   },
+   "b_u_amt_1h": {
+    "psi_train_vs_es": 0.0005085075190593492,
+    "psi_train_vs_test": 0.00012757889961457738,
+    "missing_or_constant": false
+   },
+   "b_u_amt_24h": {
+    "psi_train_vs_es": 0.002329764502544366,
+    "psi_train_vs_test": 0.006181638674057228,
+    "missing_or_constant": false
+   },
+   "b_u_small_cnt_10m": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": false
+   },
+   "b_u_amt_zscore": {
+    "psi_train_vs_es": 0.042355674305320966,
+    "psi_train_vs_test": 0.07909987441686944,
+    "missing_or_constant": false
+   },
+   "b_u_amt_ratio_mean": {
+    "psi_train_vs_es": 0.04178283638576704,
+    "psi_train_vs_test": 0.07504608455967483,
+    "missing_or_constant": false
+   },
+   "b_u_new_device": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": false
+   },
+   "b_u_new_city": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": true
+   },
+   "b_u_new_merchant": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": false
+   },
+   "b_u_n_devices": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": false
+   },
+   "b_d_n_users": {
+    "psi_train_vs_es": 0.1596948145317691,
+    "psi_train_vs_test": 0.09959457520985447,
+    "missing_or_constant": false
+   },
+   "b_d_cnt_1h": {
+    "psi_train_vs_es": 0.23786555493202574,
+    "psi_train_vs_test": 0.14668560975491307,
+    "missing_or_constant": false
+   },
+   "b_m_age_hours": {
+    "psi_train_vs_es": 8.144013870185182,
+    "psi_train_vs_test": 8.241094605903783,
+    "missing_or_constant": false
+   },
+   "b_m_users_1h": {
+    "psi_train_vs_es": 0.14794841785101032,
+    "psi_train_vs_test": 0.35421759711634415,
+    "missing_or_constant": false
+   },
+   "b_m_users_24h": {
+    "psi_train_vs_es": 0.5287916913824837,
+    "psi_train_vs_test": 0.875901689213626,
+    "missing_or_constant": false
+   },
+   "b_u_in_amt_1h": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": true
+   },
+   "b_u_in_cnt_1h": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": true
+   },
+   "b_u_passthrough": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": true
+   },
+   "b_u_age_hours": {
+    "psi_train_vs_es": 0.2270067649644811,
+    "psi_train_vs_test": 0.3936163522351374,
+    "missing_or_constant": false
+   },
+   "b_d_new_accounts_24h": {
+    "psi_train_vs_es": 0.7305015656285787,
+    "psi_train_vs_test": 0.7844224357843752,
+    "missing_or_constant": false
+   },
+   "b_is_round_amount": {
+    "psi_train_vs_es": 0.0,
+    "psi_train_vs_test": 0.0,
+    "missing_or_constant": false
+   },
+   "b_m_conf_fraud_rate": {
+    "psi_train_vs_es": 5.018111331923638,
+    "psi_train_vs_test": 5.925890455255449,
+    "missing_or_constant": false
+   },
+   "b_d_conf_fraud_rate": {
+    "psi_train_vs_es": 0.14117927896775848,
+    "psi_train_vs_test": 0.10488852613758956,
+    "missing_or_constant": false
+   },
+   "b_u_conf_fraud_payees": {
+    "psi_train_vs_es": 0.06713230979497398,
+    "psi_train_vs_test": 0.09592606340061023,
+    "missing_or_constant": false
+   },
+   "b_m_new_payer_share_24h": {
+    "psi_train_vs_es": 1.1153766073697287,
+    "psi_train_vs_test": 2.7516724386850466,
+    "missing_or_constant": false
+   },
+   "b_m_round_share_24h": {
+    "psi_train_vs_es": 0.2668155371116534,
+    "psi_train_vs_test": 0.2888973048466843,
+    "missing_or_constant": false
+   },
+   "b_m_night_share_24h": {
+    "psi_train_vs_es": 0.11210462766332646,
+    "psi_train_vs_test": 1.0086719677433673,
+    "missing_or_constant": false
+   }
+  },
+  "unstable_psi_gt_0.25": [
+   "b_m_age_hours",
+   "b_m_conf_fraud_rate",
+   "b_m_new_payer_share_24h",
+   "b_d_new_accounts_24h",
+   "b_m_users_24h",
+   "b_m_round_share_24h"
+  ],
+  "constant": [
+   "b_channel_code",
+   "b_is_p2p",
+   "b_u_new_city",
+   "b_u_in_amt_1h",
+   "b_u_in_cnt_1h",
+   "b_u_passthrough"
+  ]
+ },
+ "experiments": {
+  "raw": {
+   "learner": "lgb",
+   "feature_set": "raw",
+   "n_features": 431,
+   "best_iteration": 1874,
+   "fit_seconds": 147,
+   "predict_ms": 0.15793284807235236,
+   "pr_auc": 0.4608801879052603,
+   "roc_auc": 0.8615308735217065,
+   "recall_at_1pct_fpr": 0.3931254268153881,
+   "recall_at_5pct_fpr": 0.5618028681994082,
+   "review": {
+    "precision": 0.15280954748881154,
+    "recall": 0.6995219667653084,
+    "f1": 0.2508264294168061,
+    "fpr": 0.13692035682713172,
+    "fraud_value_caught_pct": 0.6853224944907932,
+    "loss_inr": 20220726.391586304
+   },
+   "block": {
+    "precision": 0.9808743169398907,
+    "recall": 0.0817209196448896,
+    "fpr": 5.6256529775777546e-05
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.04133895537295272,
+    "block": 0.9918538253285587
+   },
+   "predict_ms_per_txn": 0.15793284807235236,
+   "calibration": {
+    "brier_raw": 0.024144035377732517,
+    "brier_isotonic": 0.023881684976320032,
+    "ece_raw": 0.009567888265765843,
+    "ece_isotonic": 0.003354799539873553
+   },
+   "top_features_gain": {
+    "V258": 169472.1,
+    "id_19": 127470.2,
+    "id_20": 103008.2,
+    "DeviceInfo": 102935.7,
+    "C1": 99773.2,
+    "card1": 84250.6,
+    "C14": 82715.3,
+    "card2": 80971.4,
+    "C13": 79100.4,
+    "TransactionAmt": 71930.1,
+    "V294": 67940.2,
+    "addr1": 67194.5,
+    "P_emaildomain": 66009.0,
+    "D2": 53929.7,
+    "id_31": 45804.8,
+    "D15": 39376.5,
+    "R_emaildomain": 39197.7,
+    "C8": 36752.1,
+    "V317": 35088.1,
+    "card5": 32547.4,
+    "dist1": 32232.9,
+    "D10": 31578.7,
+    "C11": 27552.6,
+    "card6": 26021.7,
+    "id_30": 25827.9
+   },
+   "gain_share_engineered": 0.0,
+   "gain_share_behaviour": 0.0
+  },
+  "raw_plus_behaviour": {
+   "learner": "lgb",
+   "feature_set": "raw_plus_behaviour",
+   "n_features": 470,
+   "best_iteration": 1949,
+   "fit_seconds": 257,
+   "predict_ms": 0.14610008723963433,
+   "pr_auc": 0.47254142367415736,
+   "roc_auc": 0.8667807944952864,
+   "recall_at_1pct_fpr": 0.40336899613020716,
+   "recall_at_5pct_fpr": 0.5727293421352151,
+   "review": {
+    "precision": 0.16437986171132238,
+    "recall": 0.6926929205554291,
+    "f1": 0.2657061776904606,
+    "fpr": 0.12431889415735756,
+    "fraud_value_caught_pct": 0.6817278379577832,
+    "loss_inr": 20275451.99708748
+   },
+   "block": {
+    "precision": 0.9462809917355371,
+    "recall": 0.10425677213749146,
+    "fpr": 0.00020895282488145946
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.05224904145836413,
+    "block": 0.9870059609879676
+   },
+   "predict_ms_per_txn": 0.14610008723963433,
+   "calibration": {
+    "brier_raw": 0.023877212662943834,
+    "brier_isotonic": 0.023547228792531075,
+    "ece_raw": 0.00918294979557361,
+    "ece_isotonic": 0.004480126778421053
+   },
+   "top_features_gain": {
+    "V258": 182247.0,
+    "id_19": 131007.2,
+    "DeviceInfo": 96991.5,
+    "C14": 89181.8,
+    "id_20": 81306.1,
+    "V294": 78848.7,
+    "C1": 77567.1,
+    "b_m_conf_fraud_rate": 76756.2,
+    "card2": 69722.1,
+    "card1": 69407.6,
+    "P_emaildomain": 61359.4,
+    "D2": 56329.2,
+    "C13": 54689.8,
+    "TransactionAmt": 54598.6,
+    "addr1": 53091.3,
+    "id_31": 36795.1,
+    "D15": 36435.9,
+    "b_m_age_hours": 35580.2,
+    "C4": 33904.3,
+    "b_m_users_24h": 33554.3,
+    "card5": 31750.7,
+    "C2": 27525.3,
+    "D4": 27094.4,
+    "V308": 26970.7,
+    "D10": 25554.0
+   },
+   "gain_share_engineered": 0.0,
+   "gain_share_behaviour": 0.14841452798511182
+  },
+  "raw_plus_stable_behaviour": {
+   "learner": "lgb",
+   "feature_set": "raw_plus_stable_behaviour",
+   "n_features": 458,
+   "best_iteration": 1823,
+   "fit_seconds": 419,
+   "predict_ms": 0.14616103145979065,
+   "pr_auc": 0.4693270117573047,
+   "roc_auc": 0.8643620143456255,
+   "recall_at_1pct_fpr": 0.39267015706806285,
+   "recall_at_5pct_fpr": 0.5788754837241066,
+   "review": {
+    "precision": 0.161402789171452,
+    "recall": 0.7165945822900068,
+    "f1": 0.26346403314223543,
+    "fpr": 0.13144740014465964,
+    "fraud_value_caught_pct": 0.6840061775599463,
+    "loss_inr": 20230084.344320297
+   },
+   "block": {
+    "precision": 0.9386617100371747,
+    "recall": 0.11495561119963578,
+    "fpr": 0.000265209354657237
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.04269884300004191,
+    "block": 0.9821951357263488
+   },
+   "predict_ms_per_txn": 0.14616103145979065,
+   "calibration": {
+    "brier_raw": 0.023950662572216782,
+    "brier_isotonic": 0.02366172260340619,
+    "ece_raw": 0.008507287549403032,
+    "ece_isotonic": 0.004093499582569431
+   },
+   "top_features_gain": {
+    "V258": 170338.9,
+    "id_19": 112731.2,
+    "DeviceInfo": 99397.1,
+    "C1": 93064.1,
+    "C13": 90176.2,
+    "id_20": 85361.5,
+    "V317": 78931.2,
+    "C14": 77942.9,
+    "card1": 70957.4,
+    "card2": 66143.0,
+    "C4": 64866.2,
+    "P_emaildomain": 62848.0,
+    "addr1": 59113.4,
+    "TransactionAmt": 56130.6,
+    "D2": 43442.6,
+    "id_31": 39328.2,
+    "D15": 38432.7,
+    "b_m_users_1h": 35856.7,
+    "card5": 32316.0,
+    "R_emaildomain": 31405.6,
+    "b_hour": 27884.0,
+    "dist1": 27797.9,
+    "C11": 26820.7,
+    "b_m_night_share_24h": 26540.6,
+    "D10": 25758.2
+   },
+   "gain_share_engineered": 0.0,
+   "gain_share_behaviour": 0.08854441436136311
+  },
+  "raw_plus_engineered": {
+   "learner": "lgb",
+   "feature_set": "raw_plus_engineered",
+   "n_features": 462,
+   "best_iteration": 1595,
+   "fit_seconds": 147,
+   "predict_ms": 0.1260090307065893,
+   "pr_auc": 0.6692341752127664,
+   "roc_auc": 0.9445814493878106,
+   "recall_at_1pct_fpr": 0.5861597996813112,
+   "recall_at_5pct_fpr": 0.7418620532665604,
+   "review": {
+    "precision": 0.17779644407111858,
+    "recall": 0.8672888686546779,
+    "f1": 0.2950972039346294,
+    "fpr": 0.1415976854456321,
+    "fraud_value_caught_pct": 0.8628229160716636,
+    "loss_inr": 9834010.776750565
+   },
+   "block": {
+    "precision": 0.934323243860651,
+    "recall": 0.3724106533120874,
+    "fpr": 0.0009242144177449168
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.0366348195155306,
+    "block": 0.9325670117221782
+   },
+   "predict_ms_per_txn": 0.1260090307065893,
+   "calibration": {
+    "brier_raw": 0.01852998664522372,
+    "brier_isotonic": 0.017536846075879887,
+    "ece_raw": 0.010343208449754894,
+    "ece_isotonic": 0.003584395023387867
+   },
+   "top_features_gain": {
+    "uid_conf_fraud_rate_past": 262683.7,
+    "uid_conf_fraud_past": 249365.8,
+    "C1": 125199.4,
+    "id_20": 101100.6,
+    "C14": 97400.3,
+    "DeviceInfo": 94975.2,
+    "id_19": 71599.4,
+    "D2": 67511.4,
+    "V189": 63675.1,
+    "TransactionAmt": 49070.9,
+    "card2": 48608.0,
+    "P_emaildomain": 38520.0,
+    "D1_n": 38107.6,
+    "card1": 36310.3,
+    "C13": 35622.7,
+    "id_31": 34713.6,
+    "D15_n": 28194.5,
+    "addr1_cnt_7d": 25322.2,
+    "DeviceInfo_cnt_7d": 24878.0,
+    "card1_cnt_7d": 24692.7,
+    "V70": 24365.3,
+    "R_emaildomain": 24028.0,
+    "addr1": 24015.4,
+    "V258": 23857.3,
+    "V308": 22846.1
+   },
+   "gain_share_engineered": 0.36397606058263204,
+   "gain_share_behaviour": 0.0
+  },
+  "raw_plus_engineered_no_label": {
+   "learner": "lgb",
+   "feature_set": "raw_plus_engineered_no_label",
+   "n_features": 460,
+   "best_iteration": 1937,
+   "fit_seconds": 146,
+   "predict_ms": 0.14488913612651239,
+   "pr_auc": 0.4940520202092043,
+   "roc_auc": 0.8856176287705307,
+   "recall_at_1pct_fpr": 0.4179376280446164,
+   "recall_at_5pct_fpr": 0.601638971090371,
+   "review": {
+    "precision": 0.16405552801189885,
+    "recall": 0.7532437969496927,
+    "f1": 0.26942962993119735,
+    "fpr": 0.13550590693562645,
+    "fraud_value_caught_pct": 0.7603247999506374,
+    "loss_inr": 15789656.58419609
+   },
+   "block": {
+    "precision": 0.9185185185185185,
+    "recall": 0.14113362167083998,
+    "fpr": 0.000442015591095395
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.039034349342961634,
+    "block": 0.9743587531509921
+   },
+   "predict_ms_per_txn": 0.14488913612651239,
+   "calibration": {
+    "brier_raw": 0.023286182564824575,
+    "brier_isotonic": 0.02297960217374376,
+    "ece_raw": 0.006751211804609475,
+    "ece_isotonic": 0.0038606403241898185
+   },
+   "top_features_gain": {
+    "V258": 168727.0,
+    "id_19": 140616.0,
+    "C1": 107722.8,
+    "V294": 90091.6,
+    "DeviceInfo": 89572.8,
+    "C14": 82965.7,
+    "id_20": 79818.8,
+    "card2": 62935.0,
+    "P_emaildomain": 60007.9,
+    "card1": 57977.1,
+    "C13": 57461.6,
+    "D1_n": 55261.4,
+    "TransactionAmt": 53697.7,
+    "D15_n": 47699.2,
+    "D2_n": 45083.2,
+    "addr1": 44887.3,
+    "R_emaildomain": 37687.7,
+    "id_31": 37221.0,
+    "D2": 36507.2,
+    "C8": 35083.2,
+    "D10_n": 33920.9,
+    "card5": 31923.4,
+    "card1_cnt_7d": 31573.1,
+    "addr1_cnt_7d": 31189.6,
+    "D4_n": 28043.9
+   },
+   "gain_share_engineered": 0.20805530091274788,
+   "gain_share_behaviour": 0.0
+  },
+  "raw_plus_engineered_label30": {
+   "learner": "lgb",
+   "feature_set": "raw_plus_engineered_label30",
+   "n_features": 461,
+   "best_iteration": 1774,
+   "fit_seconds": 142,
+   "predict_ms": 0.12736708964391344,
+   "pr_auc": 0.5911201050774,
+   "roc_auc": 0.9198286037277857,
+   "recall_at_1pct_fpr": 0.5178693375825176,
+   "recall_at_5pct_fpr": 0.676075574778056,
+   "review": {
+    "precision": 0.18117513424204873,
+    "recall": 0.7987707716822218,
+    "f1": 0.2953579394806615,
+    "fpr": 0.12745318653057944,
+    "fraud_value_caught_pct": 0.7933706633973704,
+    "loss_inr": 13744890.751358032
+   },
+   "block": {
+    "precision": 0.9427860696517413,
+    "recall": 0.17254723423628499,
+    "fpr": 0.0003696857670979667
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.0393308768593325,
+    "block": 0.9775995851247397
+   },
+   "predict_ms_per_txn": 0.12736708964391344,
+   "calibration": {
+    "brier_raw": 0.020657409290689117,
+    "brier_isotonic": 0.019918031422897435,
+    "ece_raw": 0.009151419534984273,
+    "ece_isotonic": 0.003483552316885093
+   },
+   "top_features_gain": {
+    "V258": 170225.1,
+    "uid_conf_fraud_past_30d": 130651.7,
+    "C14": 97292.7,
+    "id_19": 95441.0,
+    "DeviceInfo": 95103.4,
+    "C1": 93304.7,
+    "id_20": 79281.0,
+    "D1_n": 64837.5,
+    "card2": 58471.7,
+    "P_emaildomain": 50746.7,
+    "TransactionAmt": 49803.9,
+    "card1": 47079.8,
+    "C13": 43541.5,
+    "D2": 42480.3,
+    "C4": 39407.5,
+    "V283": 38443.8,
+    "D15_n": 38179.2,
+    "id_31": 37632.5,
+    "V294": 37513.1,
+    "V70": 35089.6,
+    "addr1": 35033.3,
+    "C8": 33916.7,
+    "R_emaildomain": 32369.5,
+    "addr1_cnt_7d": 30694.4,
+    "D2_n": 29311.5
+   },
+   "gain_share_engineered": 0.19421484953376178,
+   "gain_share_behaviour": 0.0
+  },
+  "ablate_d_normalised": {
+   "learner": "lgb",
+   "feature_set": "engineered_minus_d_normalised",
+   "n_features": 448,
+   "best_iteration": 1335,
+   "fit_seconds": 114,
+   "predict_ms": 0.10573107272444084,
+   "pr_auc": 0.6646360103997231,
+   "roc_auc": 0.9405592200182434,
+   "recall_at_1pct_fpr": 0.5877532437969497,
+   "recall_at_5pct_fpr": 0.7286592305941271,
+   "review": {
+    "precision": 0.1702759893746342,
+    "recall": 0.8609150921921238,
+    "f1": 0.2843181476469704,
+    "fpr": 0.14810736960540064,
+    "fraud_value_caught_pct": 0.8658403324040216,
+    "loss_inr": 9737452.556406021
+   },
+   "block": {
+    "precision": 0.9472190692395006,
+    "recall": 0.3799226041429547,
+    "fpr": 0.0007474081813067589
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.04142959781823768,
+    "block": 0.9122544256410047
+   },
+   "predict_ms_per_txn": 0.10573107272444084,
+   "calibration": {
+    "brier_raw": 0.018592761386036598,
+    "brier_isotonic": 0.01772628482770572,
+    "ece_raw": 0.012037262193532718,
+    "ece_isotonic": 0.004902057442944557
+   },
+   "top_features_gain": {
+    "uid_conf_fraud_past": 267798.7,
+    "uid_conf_fraud_rate_past": 245790.5,
+    "C1": 116538.9,
+    "DeviceInfo": 101861.5,
+    "C14": 85388.5,
+    "id_19": 70282.7,
+    "id_20": 69666.7,
+    "V189": 63803.5,
+    "TransactionAmt": 51017.0,
+    "V258": 49019.5,
+    "D2": 47003.4,
+    "C13": 44855.1,
+    "card2": 44114.9,
+    "P_emaildomain": 42304.7,
+    "id_31": 38547.9,
+    "DeviceInfo_cnt_1d": 35869.0,
+    "card1": 33117.8,
+    "R_emaildomain": 27644.1,
+    "C2": 27269.5,
+    "addr1_cnt_7d": 26940.8,
+    "DeviceInfo_cnt_7d": 26267.0,
+    "card1_cnt_7d": 25354.3,
+    "V282": 24484.5,
+    "P_emaildomain_cnt_1d": 23951.5,
+    "addr1_cnt_1d": 23789.3
+   },
+   "gain_share_engineered": 0.31802034095238463,
+   "gain_share_behaviour": 0.0
+  },
+  "ablate_amount_cents": {
+   "learner": "lgb",
+   "feature_set": "engineered_minus_amount_cents",
+   "n_features": 461,
+   "best_iteration": 1595,
+   "fit_seconds": 138,
+   "predict_ms": 0.12362864845374841,
+   "pr_auc": 0.6640284805273908,
+   "roc_auc": 0.9433076051470325,
+   "recall_at_1pct_fpr": 0.5761438652401548,
+   "recall_at_5pct_fpr": 0.7313908490780787,
+   "review": {
+    "precision": 0.18198974160456788,
+    "recall": 0.8561347598452083,
+    "f1": 0.30017159503571567,
+    "fpr": 0.13585951940850277,
+    "fraud_value_caught_pct": 0.8643498501022436,
+    "loss_inr": 9672759.175516129
+   },
+   "block": {
+    "precision": 0.9416413373860182,
+    "recall": 0.3526064193034373,
+    "fpr": 0.0007715181226392349
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.03552308152588516,
+    "block": 0.9416027016960887
+   },
+   "predict_ms_per_txn": 0.12362864845374841,
+   "calibration": {
+    "brier_raw": 0.0185548334872677,
+    "brier_isotonic": 0.01763855751944655,
+    "ece_raw": 0.009804415044147089,
+    "ece_isotonic": 0.003590346593837148
+   },
+   "top_features_gain": {
+    "uid_conf_fraud_past": 274060.1,
+    "uid_conf_fraud_rate_past": 246670.2,
+    "C1": 118416.8,
+    "DeviceInfo": 95214.2,
+    "C14": 95083.5,
+    "D2": 76198.2,
+    "id_19": 74671.4,
+    "id_20": 66423.0,
+    "V189": 62316.2,
+    "TransactionAmt": 48832.7,
+    "card2": 48255.4,
+    "P_emaildomain": 40067.4,
+    "D1_n": 38635.5,
+    "id_31": 38377.3,
+    "card1": 35003.1,
+    "C13": 32727.7,
+    "C2": 30946.8,
+    "DeviceInfo_cnt_1d": 27492.2,
+    "D15_n": 26459.1,
+    "V258": 26357.5,
+    "card1_cnt_7d": 25405.5,
+    "addr1": 24563.9,
+    "addr1_cnt_7d": 24502.5,
+    "DeviceInfo_cnt_7d": 23267.6,
+    "R_emaildomain": 23167.0
+   },
+   "gain_share_engineered": 0.3739519730288753,
+   "gain_share_behaviour": 0.0
+  },
+  "ablate_window_counts": {
+   "learner": "lgb",
+   "feature_set": "engineered_minus_window_counts",
+   "n_features": 452,
+   "best_iteration": 1959,
+   "fit_seconds": 157,
+   "predict_ms": 0.15421846958028237,
+   "pr_auc": 0.6708659727506981,
+   "roc_auc": 0.9439813187561641,
+   "recall_at_1pct_fpr": 0.5909401320282267,
+   "recall_at_5pct_fpr": 0.7432278625085363,
+   "review": {
+    "precision": 0.19222893416606943,
+    "recall": 0.8547689506032324,
+    "f1": 0.3138713587160948,
+    "fpr": 0.12681025476171343,
+    "fraud_value_caught_pct": 0.8301082853821932,
+    "loss_inr": 11575085.398426056
+   },
+   "block": {
+    "precision": 0.9424920127795527,
+    "recall": 0.33576143865240154,
+    "fpr": 0.0007232982399742828
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.026708754230805994,
+    "block": 0.9578296226919617
+   },
+   "predict_ms_per_txn": 0.15421846958028237,
+   "calibration": {
+    "brier_raw": 0.01794151609787819,
+    "brier_isotonic": 0.01745432899033037,
+    "ece_raw": 0.007444915150922436,
+    "ece_isotonic": 0.00277099572153473
+   },
+   "top_features_gain": {
+    "uid_conf_fraud_past": 296694.6,
+    "uid_conf_fraud_rate_past": 143348.6,
+    "C1": 118233.3,
+    "DeviceInfo": 100446.7,
+    "C14": 96269.0,
+    "uid_secs_since_prev": 86961.8,
+    "D2": 82976.8,
+    "id_19": 82689.1,
+    "id_20": 70121.3,
+    "V189": 63074.1,
+    "TransactionAmt": 60502.5,
+    "card2": 60421.7,
+    "card1": 49733.3,
+    "D1_n": 49484.2,
+    "P_emaildomain": 47069.3,
+    "C13": 37329.7,
+    "id_31": 37111.2,
+    "D15_n": 34797.6,
+    "addr1": 34788.8,
+    "C2": 34366.0,
+    "V258": 29459.1,
+    "R_emaildomain": 28778.1,
+    "D10_n": 28621.6,
+    "D3_n": 26111.6,
+    "D4_n": 25744.5
+   },
+   "gain_share_engineered": 0.3207265660272422,
+   "gain_share_behaviour": 0.0
+  },
+  "ablate_card_holder": {
+   "learner": "lgb",
+   "feature_set": "engineered_minus_card_holder",
+   "n_features": 458,
+   "best_iteration": 1617,
+   "fit_seconds": 136,
+   "predict_ms": 0.12655062329398914,
+   "pr_auc": 0.6631248814221736,
+   "roc_auc": 0.9414677050729428,
+   "recall_at_1pct_fpr": 0.5820623719553836,
+   "recall_at_5pct_fpr": 0.7313908490780787,
+   "review": {
+    "precision": 0.1781750924784217,
+    "recall": 0.8552242203505577,
+    "f1": 0.2949095333411829,
+    "fpr": 0.13926705778349271,
+    "fraud_value_caught_pct": 0.8422603385799194,
+    "loss_inr": 11015004.447818756
+   },
+   "block": {
+    "precision": 0.9354651162790698,
+    "recall": 0.366264511723196,
+    "fpr": 0.0008920678293016154
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.04062647846086107,
+    "block": 0.9260274870483942
+   },
+   "predict_ms_per_txn": 0.12655062329398914,
+   "calibration": {
+    "brier_raw": 0.018862773048717738,
+    "brier_isotonic": 0.01781796591067146,
+    "ece_raw": 0.011503126491515013,
+    "ece_isotonic": 0.0044418555308173265
+   },
+   "top_features_gain": {
+    "uid_conf_fraud_rate_past": 261853.6,
+    "uid_conf_fraud_past": 253405.6,
+    "C1": 115725.4,
+    "DeviceInfo": 99282.3,
+    "C13": 88614.1,
+    "id_19": 69722.1,
+    "id_20": 66694.9,
+    "D2": 62898.2,
+    "V189": 62116.0,
+    "V258": 55949.0,
+    "TransactionAmt": 52649.4,
+    "card2": 42444.2,
+    "P_emaildomain": 41727.1,
+    "id_31": 38470.1,
+    "D1_n": 37062.3,
+    "card1": 35364.8,
+    "C14": 35099.7,
+    "D15_n": 28147.8,
+    "DeviceInfo_cnt_1d": 27947.9,
+    "card1_cnt_7d": 26580.2,
+    "addr1_cnt_7d": 25662.6,
+    "addr1": 25266.1,
+    "C2": 24483.4,
+    "V308": 24050.0,
+    "R_emaildomain": 23528.8
+   },
+   "gain_share_engineered": 0.36638167027008456,
+   "gain_share_behaviour": 0.0
+  },
+  "ablate_delayed_fraud_label": {
+   "learner": "lgb",
+   "feature_set": "engineered_minus_delayed_fraud_label",
+   "n_features": 460,
+   "best_iteration": 1937,
+   "fit_seconds": 154,
+   "predict_ms": 0.14869446040176854,
+   "pr_auc": 0.4940520202092043,
+   "roc_auc": 0.8856176287705307,
+   "recall_at_1pct_fpr": 0.4179376280446164,
+   "recall_at_5pct_fpr": 0.601638971090371,
+   "review": {
+    "precision": 0.16405552801189885,
+    "recall": 0.7532437969496927,
+    "f1": 0.26942962993119735,
+    "fpr": 0.13550590693562645,
+    "fraud_value_caught_pct": 0.7603247999506374,
+    "loss_inr": 15789656.58419609
+   },
+   "block": {
+    "precision": 0.9185185185185185,
+    "recall": 0.14113362167083998,
+    "fpr": 0.000442015591095395
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.039034349342961634,
+    "block": 0.9743587531509921
+   },
+   "predict_ms_per_txn": 0.14869446040176854,
+   "calibration": {
+    "brier_raw": 0.023286182564824575,
+    "brier_isotonic": 0.02297960217374376,
+    "ece_raw": 0.006751211804609475,
+    "ece_isotonic": 0.0038606403241898185
+   },
+   "top_features_gain": {
+    "V258": 168727.0,
+    "id_19": 140616.0,
+    "C1": 107722.8,
+    "V294": 90091.6,
+    "DeviceInfo": 89572.8,
+    "C14": 82965.7,
+    "id_20": 79818.8,
+    "card2": 62935.0,
+    "P_emaildomain": 60007.9,
+    "card1": 57977.1,
+    "C13": 57461.6,
+    "D1_n": 55261.4,
+    "TransactionAmt": 53697.7,
+    "D15_n": 47699.2,
+    "D2_n": 45083.2,
+    "addr1": 44887.3,
+    "R_emaildomain": 37687.7,
+    "id_31": 37221.0,
+    "D2": 36507.2,
+    "C8": 35083.2,
+    "D10_n": 33920.9,
+    "card5": 31923.4,
+    "card1_cnt_7d": 31573.1,
+    "addr1_cnt_7d": 31189.6,
+    "D4_n": 28043.9
+   },
+   "gain_share_engineered": 0.20805530091274788,
+   "gain_share_behaviour": 0.0
+  },
+  "selected": {
+   "learner": "lgb",
+   "feature_set": "selected",
+   "n_features": 442,
+   "best_iteration": 1593,
+   "fit_seconds": 139,
+   "predict_ms": 0.1293659759277567,
+   "pr_auc": 0.6652288003563681,
+   "roc_auc": 0.9426546408325813,
+   "recall_at_1pct_fpr": 0.580468927839745,
+   "recall_at_5pct_fpr": 0.7288868654677897,
+   "review": {
+    "precision": 0.1798440713636581,
+    "recall": 0.8559071249715456,
+    "f1": 0.2972332015810277,
+    "fpr": 0.13780438800932251,
+    "fraud_value_caught_pct": 0.861195097699641,
+    "loss_inr": 9882598.862100601
+   },
+   "block": {
+    "precision": 0.9461358313817331,
+    "recall": 0.3678579558388345,
+    "fpr": 0.0007393715341959334
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.036465475543232075,
+    "block": 0.9328021049193579
+   },
+   "predict_ms_per_txn": 0.1293659759277567,
+   "calibration": {
+    "brier_raw": 0.01856848905741356,
+    "brier_isotonic": 0.017614518574444814,
+    "ece_raw": 0.009819244781439869,
+    "ece_isotonic": 0.003693823687885401
+   },
+   "top_features_gain": {
+    "uid_conf_fraud_rate_past": 319939.9,
+    "V258": 165482.5,
+    "uid_conf_fraud_past": 115099.6,
+    "DeviceInfo": 103594.1,
+    "C14": 83406.1,
+    "C1": 79831.4,
+    "id_19": 70374.3,
+    "D2": 69553.3,
+    "id_20": 67439.6,
+    "TransactionAmt": 50812.1,
+    "D1_n": 48276.2,
+    "card2": 44548.9,
+    "C13": 43922.4,
+    "P_emaildomain": 40927.2,
+    "C4": 40759.8,
+    "id_31": 37060.3,
+    "card1": 33371.6,
+    "R_emaildomain": 31298.6,
+    "C2": 30943.0,
+    "DeviceInfo_cnt_1d": 30465.0,
+    "addr1_cnt_7d": 26474.2,
+    "D15_n": 25745.8,
+    "card1_cnt_7d": 25033.4,
+    "addr1": 24823.4,
+    "uid_n_past": 21796.2
+   },
+   "gain_share_engineered": 0.34695137451305547,
+   "gain_share_behaviour": 0.0
+  },
+  "selected_xgb": {
+   "learner": "xgb",
+   "feature_set": "selected",
+   "n_features": 442,
+   "best_iteration": 154,
+   "fit_seconds": 105,
+   "predict_ms": 0.011684373992600555,
+   "pr_auc": 0.6648758727791022,
+   "roc_auc": 0.9483651716338226,
+   "recall_at_1pct_fpr": 0.5752333257455042,
+   "recall_at_5pct_fpr": 0.7593899385385842,
+   "review": {
+    "precision": 0.18863355572028664,
+    "recall": 0.8688823127703165,
+    "f1": 0.30997238915056036,
+    "fpr": 0.13194567226553083,
+    "fraud_value_caught_pct": 0.8644450320545274,
+    "loss_inr": 9618458.245384216
+   },
+   "block": {
+    "precision": 0.9398447606727037,
+    "recall": 0.3307534714318234,
+    "fpr": 0.0007474081813067589
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.11611599015774418,
+    "block": 0.9106528162956238
+   },
+   "predict_ms_per_txn": 0.011684373992600555,
+   "calibration": {
+    "brier_raw": 0.022475838661193848,
+    "brier_isotonic": 0.01813807152211666,
+    "ece_raw": 0.04005296520706507,
+    "ece_isotonic": 0.005991611964332025
+   }
+  },
+  "selected_spw1": {
+   "learner": "lgb",
+   "feature_set": "selected",
+   "n_features": 442,
+   "best_iteration": 272,
+   "fit_seconds": 48,
+   "predict_ms": 0.022507706638694953,
+   "pr_auc": 0.6810325750201389,
+   "roc_auc": 0.9513213405873785,
+   "recall_at_1pct_fpr": 0.595265194627817,
+   "recall_at_5pct_fpr": 0.7671295242431141,
+   "review": {
+    "precision": 0.18968394189242246,
+    "recall": 0.8798087867061234,
+    "f1": 0.3120836529532884,
+    "fpr": 0.13269308044683759,
+    "fraud_value_caught_pct": 0.8550049293456218,
+    "loss_inr": 10183255.946807861
+   },
+   "block": {
+    "precision": 0.9405940594059405,
+    "recall": 0.34600500796722056,
+    "fpr": 0.0007715181226392349
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.030113587423088773,
+    "block": 0.8984766871296933
+   },
+   "predict_ms_per_txn": 0.022507706638694953,
+   "calibration": {
+    "brier_raw": 0.01731159708854706,
+    "brier_isotonic": 0.01727019944668921,
+    "ece_raw": 0.0044835185496346535,
+    "ece_isotonic": 0.004840782642513107
+   },
+   "top_features_gain": {
+    "uid_conf_fraud_rate_past": 85227.8,
+    "uid_conf_fraud_past": 40320.4,
+    "V258": 36943.8,
+    "C1": 30427.3,
+    "DeviceInfo": 28024.4,
+    "id_19": 19093.1,
+    "C13": 17223.8,
+    "C14": 16763.2,
+    "D2": 14483.9,
+    "id_20": 13917.5,
+    "V187": 9947.5,
+    "D1_n": 8443.9,
+    "TransactionAmt": 8100.5,
+    "card2": 6867.1,
+    "id_31": 6633.8,
+    "V189": 6184.1,
+    "C8": 6076.1,
+    "P_emaildomain": 6002.5,
+    "R_emaildomain": 5631.6,
+    "V156": 5631.4,
+    "C7": 5302.3,
+    "D8_n": 5275.8,
+    "card6": 4952.4,
+    "V317": 4633.5,
+    "V149": 4525.7
+   },
+   "gain_share_engineered": 0.3174648342716954,
+   "gain_share_behaviour": 0.0
+  },
+  "selected_spw20": {
+   "learner": "lgb",
+   "feature_set": "selected",
+   "n_features": 442,
+   "best_iteration": 2,
+   "fit_seconds": 29,
+   "predict_ms": 0.006319465431143356,
+   "pr_auc": 0.5525586319239555,
+   "roc_auc": 0.9325343068146725,
+   "recall_at_1pct_fpr": 0.5084896968120278,
+   "recall_at_5pct_fpr": 0.6827749437443325,
+   "review": {
+    "precision": 0.16415308168424722,
+    "recall": 0.8572729342135215,
+    "f1": 0.2755441741357234,
+    "fpr": 0.15411074499718716,
+    "fraud_value_caught_pct": 0.8181300021832435,
+    "loss_inr": 12619640.948116302
+   },
+   "block": {
+    "precision": 0.625,
+    "recall": 0.0022763487366264513,
+    "fpr": 4.821988266495218e-05
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.07641781126305834,
+    "block": 0.18529325697408355
+   },
+   "predict_ms_per_txn": 0.006319465431143356,
+   "calibration": {
+    "brier_raw": 0.02864797526211919,
+    "brier_isotonic": 0.020679181440093935,
+    "ece_raw": 0.0422479640996812,
+    "ece_isotonic": 0.006625030871358023
+   },
+   "top_features_gain": {
+    "uid_conf_fraud_rate_past": 664107.0,
+    "V258": 417679.0,
+    "V317": 158216.0,
+    "C14": 157588.5,
+    "C4": 112048.7,
+    "D2": 68175.1,
+    "DeviceInfo": 36357.3,
+    "D1_n": 34076.1,
+    "V69": 29478.0,
+    "C1": 24301.5,
+    "C2": 22292.0,
+    "TransactionAmt": 21113.0,
+    "V70": 20021.2,
+    "card6": 18278.7,
+    "V161": 15894.2,
+    "V29": 15470.0,
+    "C6": 12320.5,
+    "C13": 11500.0,
+    "V149": 10656.0,
+    "uid_conf_fraud_past": 10490.9,
+    "D3_n": 9084.4,
+    "V157": 8236.5,
+    "V323": 6727.6,
+    "DeviceInfo_cnt_1d": 5726.9,
+    "V223": 5106.8
+   },
+   "gain_share_engineered": 0.3808912873224611,
+   "gain_share_behaviour": 0.0
+  },
+  "selected_hpo_a": {
+   "learner": "lgb",
+   "feature_set": "selected",
+   "n_features": 442,
+   "best_iteration": 825,
+   "fit_seconds": 215,
+   "predict_ms": 0.13796405625576677,
+   "pr_auc": 0.6826001816812297,
+   "roc_auc": 0.9488577999904468,
+   "recall_at_1pct_fpr": 0.5973139084907808,
+   "recall_at_5pct_fpr": 0.7598452082859094,
+   "review": {
+    "precision": 0.18166383701188454,
+    "recall": 0.876849533348509,
+    "f1": 0.3009727702465133,
+    "fpr": 0.13945190066704172,
+    "fraud_value_caught_pct": 0.8664535235455992,
+    "loss_inr": 9593669.657714844
+   },
+   "block": {
+    "precision": 0.9432902863559798,
+    "recall": 0.3824265877532438,
+    "fpr": 0.0008117013581933618
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.02979000340896581,
+    "block": 0.9249873564697136
+   },
+   "predict_ms_per_txn": 0.13796405625576677,
+   "calibration": {
+    "brier_raw": 0.017620932767224397,
+    "brier_isotonic": 0.017139892381506667,
+    "ece_raw": 0.0068289391644030415,
+    "ece_isotonic": 0.0034697465860761122
+   },
+   "top_features_gain": {
+    "uid_conf_fraud_rate_past": 383312.2,
+    "uid_conf_fraud_past": 160506.5,
+    "V201": 147910.0,
+    "V258": 134482.7,
+    "C1": 121816.7,
+    "C13": 107442.3,
+    "id_19": 96965.5,
+    "C14": 96783.0,
+    "DeviceInfo": 91912.4,
+    "TransactionAmt": 89052.0,
+    "card2": 81489.3,
+    "id_20": 80290.5,
+    "V317": 78136.5,
+    "D2": 76314.1,
+    "D1_n": 70496.9,
+    "C8": 67185.7,
+    "card1": 60596.6,
+    "card1_cnt_7d": 54240.4,
+    "DeviceInfo_cnt_1d": 52956.9,
+    "C4": 52411.4,
+    "D15_n": 52003.5,
+    "addr1": 49898.9,
+    "P_emaildomain_cnt_1d": 48882.0,
+    "addr1_cnt_7d": 47514.6,
+    "DeviceInfo_cnt_7d": 47367.8
+   },
+   "gain_share_engineered": 0.33830237634543764,
+   "gain_share_behaviour": 0.0
+  },
+  "selected_hpo_b": {
+   "learner": "lgb",
+   "feature_set": "selected",
+   "n_features": 442,
+   "best_iteration": 1052,
+   "fit_seconds": 198,
+   "predict_ms": 0.12177349158338176,
+   "pr_auc": 0.6765634811640903,
+   "roc_auc": 0.9462678994452811,
+   "recall_at_1pct_fpr": 0.5918506715228773,
+   "recall_at_5pct_fpr": 0.7523332574550421,
+   "review": {
+    "precision": 0.18132336236274138,
+    "recall": 0.8720692010015935,
+    "f1": 0.3002233454801928,
+    "fpr": 0.1390098850759463,
+    "fraud_value_caught_pct": 0.8479941066013427,
+    "loss_inr": 10674403.992059708
+   },
+   "block": {
+    "precision": 0.9439579684763573,
+    "recall": 0.36808559071249713,
+    "fpr": 0.0007715181226392349
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.03452428089183694,
+    "block": 0.9328001780204469
+   },
+   "predict_ms_per_txn": 0.12177349158338176,
+   "calibration": {
+    "brier_raw": 0.018004112850232516,
+    "brier_isotonic": 0.017293108276711388,
+    "ece_raw": 0.008971580567033326,
+    "ece_isotonic": 0.0035453310072967393
+   },
+   "top_features_gain": {
+    "uid_conf_fraud_rate_past": 197414.3,
+    "V201": 138063.8,
+    "id_19": 96209.0,
+    "id_20": 78527.8,
+    "V317": 73817.9,
+    "uid_conf_fraud_past": 71960.1,
+    "C14": 68305.7,
+    "C1": 65327.1,
+    "DeviceInfo": 60983.6,
+    "V258": 51820.5,
+    "C13": 49070.1,
+    "TransactionAmt": 46101.5,
+    "card2": 43940.0,
+    "D1_n": 43093.2,
+    "C4": 42336.7,
+    "card1": 37452.6,
+    "D2": 36782.2,
+    "id_31": 35803.0,
+    "DeviceInfo_cnt_1d": 32631.1,
+    "P_emaildomain": 30398.7,
+    "addr1_cnt_7d": 30397.6,
+    "D15_n": 29317.9,
+    "D2_n": 28481.3,
+    "D1": 27485.2,
+    "P_emaildomain_cnt_1d": 27237.5
+   },
+   "gain_share_engineered": 0.2980492187459571,
+   "gain_share_behaviour": 0.0
+  },
+  "selected_cat": {
+   "learner": "cat",
+   "feature_set": "selected",
+   "n_features": 442,
+   "best_iteration": 277,
+   "fit_seconds": 1112,
+   "predict_ms": 0.010148130131933794,
+   "pr_auc": 0.6698789329060911,
+   "roc_auc": 0.950002730411066,
+   "recall_at_1pct_fpr": 0.5902572274072387,
+   "recall_at_5pct_fpr": 0.7580241292966082,
+   "review": {
+    "precision": 0.19162392311139884,
+    "recall": 0.8759389938538584,
+    "f1": 0.3144561575549563,
+    "fpr": 0.13045889255002813,
+    "fraud_value_caught_pct": 0.861314661948933,
+    "loss_inr": 9784163.16898346
+   },
+   "block": {
+    "precision": 0.9039039039039038,
+    "recall": 0.4111085818347371,
+    "fpr": 0.0015430362452784699
+   },
+   "loss_no_model_inr": 58844455.25148773,
+   "thresholds": {
+    "review": 0.10188863130724306,
+    "block": 0.8892608558252093
+   },
+   "predict_ms_per_txn": 0.010148130131933794,
+   "calibration": {
+    "brier_raw": 0.02226168641329316,
+    "brier_isotonic": 0.017473887916304876,
+    "ece_raw": 0.03758789127836665,
+    "ece_isotonic": 0.0036250402176437207
+   }
+  }
+ },
+ "selection": {
+  "raw_columns": 431,
+  "dropped_mostly_missing": [
+   "id_24"
+  ],
+  "dropped_constant": [
+   "V107"
+  ],
+  "dropped_correlated_V": 18,
+  "kept_raw": 411,
+  "selected_total": 442,
+  "missing_share_summary": {
+   "median": 0.616578156892041,
+   "share_cols_over_50pct": 0.5336426914153132
+  }
+ }
+}
